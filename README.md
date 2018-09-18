@@ -1,5 +1,7 @@
 # README
 #### run the Scout2 AWS profiler in a docker container delegate roles using aws-vault
+We use aws-vault to assume Roles that can run a security audit any which ever account we have permissions for. This prevents the need to pass around AWS credentials to perform this crucial task.
+
 
 ## Setup the Docker image
 
